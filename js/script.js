@@ -14,3 +14,8 @@ const chilometri = prompt("Quanti chilometri devi fare?");
 
 const age = prompt("Quanti anni hai?");
 
+
+// dichiaro la costante per la quale viene calcolato
+// il prezzo del biglietto
+
+const costo = chilometri * 0.21;
