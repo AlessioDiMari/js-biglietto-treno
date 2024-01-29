@@ -19,3 +19,18 @@ const age = prompt("Quanti anni hai?");
 // il prezzo del biglietto
 
 const costo = chilometri * 0.21;
+
+
+// Creo un if per verificare se in base all'età il passeggero 
+// ha uno sconto sul costo del biglietto
+
+// Verifico se il paseggero ha meno di 18 anni
+if ( age < 18 ) {
+        
+    const sconto = costo * 0.20;
+
+    const totaleprezzo = costo - sconto;
+
+    document.getElementById("esito").innerHTML = totaleprezzo;
+
+}
