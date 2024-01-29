@@ -6,3 +6,11 @@
 // va applicato uno sconto del 20% per i minorenni
 // va applicato uno sconto del 40% per gli over 65
 
+
+
+// Chiedo i chilometri da percorrere e l'età
+
+const chilometri = prompt("Quanti chilometri devi fare?");
+
+const age = prompt("Quanti anni hai?");
+
