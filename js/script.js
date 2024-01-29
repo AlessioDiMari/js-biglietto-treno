@@ -43,4 +43,11 @@ if ( age < 18 ) {
 
     document.getElementById("esito").innerHTML = totaleprezzo;
 
+} else {
+
+    // Verifico se il passeggero non soddisfa
+    // ne la prima ne la seconda condizione
+
+    document.getElementById("esito").innerHTML = costo;
+
 }
