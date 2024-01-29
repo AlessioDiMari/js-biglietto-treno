@@ -33,4 +33,14 @@ if ( age < 18 ) {
 
     document.getElementById("esito").innerHTML = totaleprezzo;
 
+} else if ( age > 64 ) {
+
+    // Verifico se il passeggero ha più di 65 anni
+    
+    const sconto = costo * 0.40;
+
+    const totaleprezzo = costo - sconto;
+
+    document.getElementById("esito").innerHTML = totaleprezzo;
+
 }
