@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: aqua; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    padding: 50px;
+}
+
+
+.container-small{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 25vw;
+
+    background-color: black;
+    padding: 20px;
+    color: lightgreen;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+#esito{
+    text-align: center;
+}

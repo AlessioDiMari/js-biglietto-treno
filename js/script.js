@@ -31,7 +31,7 @@ if ( age < 18 ) {
 
     const totaleprezzo = costo - sconto;
 
-    document.getElementById("esito").innerHTML = totaleprezzo;
+    document.getElementById("esito").innerHTML = `Il biglietto ti costerà ${totaleprezzo} €`;
 
 } else if ( age > 64 ) {
 
@@ -41,13 +41,13 @@ if ( age < 18 ) {
 
     const totaleprezzo = costo - sconto;
 
-    document.getElementById("esito").innerHTML = totaleprezzo;
+    document.getElementById("esito").innerHTML = `Il biglietto ti costerà ${totaleprezzo} €`;
 
 } else {
 
     // Verifico se il passeggero non soddisfa
     // ne la prima ne la seconda condizione
 
-    document.getElementById("esito").innerHTML = costo;
+    document.getElementById("esito").innerHTML = `Il biglietto ti costerà ${costo} €`;
 
 }
